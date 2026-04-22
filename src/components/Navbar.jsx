@@ -58,7 +58,8 @@ const Navbar = () => {
               </Link>
             ))}
             <a
-              href="/resume.pdf"
+              href="public\Shahid_cv_new.pdf"
+              download="Muhamed_Shahid_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 rounded-full border border-primary-500/50 text-primary-400 hover:bg-primary-500 hover:text-white hover:border-primary-500 transition-all duration-300 text-sm font-medium hover:scale-[1.02] active:scale-95 hover:shadow-lg hover:shadow-primary-500/20"
