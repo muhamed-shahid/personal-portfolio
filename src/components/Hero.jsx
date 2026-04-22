@@ -51,7 +51,7 @@ const Hero = () => {
             
             <motion.h1
               variants={fadeUpVariant}
-              className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold text-white tracking-tight leading-tight"
+              className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-display font-bold text-white tracking-tight leading-tight"
             >
               Muhamed Shahid P
             </motion.h1>
@@ -101,11 +101,11 @@ const Hero = () => {
               variants={fadeUpVariant}
               className="mt-12 flex items-center justify-center lg:justify-start gap-6"
             >
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white hover:-translate-y-1 transition-all duration-300">
+              <a href="https://github.com/muhamed-shahid" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white hover:-translate-y-1 transition-all duration-300">
                 <span className="sr-only">GitHub</span>
                 <FaGithub className="w-6 h-6" />
               </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white hover:-translate-y-1 transition-all duration-300">
+              <a href="https://www.linkedin.com/in/muhamed-shahid-p/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white hover:-translate-y-1 transition-all duration-300">
                 <span className="sr-only">LinkedIn</span>
                 <FaLinkedin className="w-6 h-6" />
               </a>
