@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+  }
+  
+  .glass-card {
+    @apply bg-dark-800/60 backdrop-blur-2xl border border-white/5 transition-all duration-500 hover:shadow-2xl hover:shadow-primary-500/10 hover:border-white/15;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-accent-400;
+  }
+
+  .link-underline {
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .link-underline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background: theme('colors.primary.500');
+    transform-origin: bottom right;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .link-underline:hover::after,
+  .link-underline.active::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .nav-link {
+    @apply text-slate-400 transition-colors duration-300 cursor-pointer text-sm font-medium link-underline;
+  }
+
+  .nav-link:hover {
+    @apply text-white;
+  }
+
+  .nav-link.active {
+    @apply text-primary-400;
+  }
+}
