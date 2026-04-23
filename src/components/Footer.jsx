@@ -23,10 +23,10 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-all hover:scale-110">
+            <a href="https://github.com/muhamed-shahid" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-all hover:scale-110">
               <FaGithub className="w-5 h-5" />
             </a>
-            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-all hover:scale-110">
+            <a href="https://www.linkedin.com/in/muhamed-shahid-p/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-all hover:scale-110">
               <FaLinkedin className="w-5 h-5" />
             </a>
             <a href="mailto:muhamedshahid7860@gmail.com" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-all hover:scale-110">
@@ -35,13 +35,13 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="mt-8 pt-8 border-t border-white/5 flex flex-col  justify-between items-center gap-4">
           <p className="text-slate-500 text-sm">
             © {new Date().getFullYear()} Muhamed Shahid P. All rights reserved.
           </p>
-          <p className="text-slate-500 text-sm flex items-center gap-1">
+          {/* <p className="text-slate-500 text-sm flex items-center gap-1">
             Built with <Heart className="w-4 h-4 text-red-500" /> using React & TailwindCSS
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>

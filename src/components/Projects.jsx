@@ -28,11 +28,11 @@ const projectsData = [
     id: 3,
     title: 'Personal Portfolio',
     description: 'A responsive React-based portfolio showcasing projects, skills, and contact features. Modern, minimal UI with smooth animations.',
-    image: '/portfolio.png',
+    image: '/portfolio-img.png',
     tags: ['React', 'Tailwind CSS', 'Framer Motion'],
     category: 'React',
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://personal-portfolio-red-one-79.vercel.app/',
+    githubUrl: 'https://github.com/muhamed-shahid/personal-portfolio',
   }
 ];
 
