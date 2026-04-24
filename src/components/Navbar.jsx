@@ -59,7 +59,6 @@ const Navbar = () => {
             ))}
             <a
               href="public\Shahid_cv_new.pdf"
-              download="Muhamed_Shahid_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 rounded-full border border-primary-500/50 text-primary-400 hover:bg-primary-500 hover:text-white hover:border-primary-500 transition-all duration-300 text-sm font-medium hover:scale-[1.02] active:scale-95 hover:shadow-lg hover:shadow-primary-500/20"
@@ -102,7 +101,6 @@ const Navbar = () => {
           ))}
           <a
             href="public\Shahid_cv_new.pdf"
-            download="Muhamed_Shahid_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="block px-3 py-2 text-base font-medium text-white bg-primary-600 hover:bg-primary-500 rounded-lg mt-4 text-center border-none transition-all duration-300 hover:shadow-lg hover:shadow-primary-500/25 active:scale-95"
